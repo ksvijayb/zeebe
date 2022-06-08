@@ -274,7 +274,7 @@ public final class CreateProcessInstanceProcessor
     record.setElementId(elementId);
     // TODO check with Philipp which of these 2 need to be set and with what values
     record.setFlowScopeKey(flowScopeKey);
-    record.setParentElementInstanceKey(flowScopeKey);
+    // not this one -> record.setParentElementInstanceKey(flowScopeKey);
     return record;
   }
 }
