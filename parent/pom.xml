@@ -91,7 +91,7 @@
     <version.spring-boot>2.7.0</version.spring-boot>
     <version.concurrentunit>0.4.6</version.concurrentunit>
     <version.kryo>5.3.0</version.kryo>
-    <version.awaitility>4.0.3</version.awaitility>
+    <version.awaitility>4.2.0</version.awaitility>
     <version.failsafe>2.4.4</version.failsafe>
     <version.jqwik>1.6.5</version.jqwik>
     <version.jmock>2.12.0</version.jmock>
@@ -1073,7 +1073,7 @@
                 <goal>check</goal>
               </goals>
               <phase>validate</phase>
-              <configuration></configuration>
+              <configuration/>
             </execution>
           </executions>
         </plugin>
@@ -1249,7 +1249,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1327,7 +1327,7 @@
               </goals>
               <configuration>
                 <rules>
-                  <dependencyConvergence></dependencyConvergence>
+                  <dependencyConvergence/>
                 </rules>
               </configuration>
             </execution>
@@ -1338,7 +1338,7 @@
               </goals>
               <configuration>
                 <rules>
-                  <banDuplicatePomDependencyVersions></banDuplicatePomDependencyVersions>
+                  <banDuplicatePomDependencyVersions/>
                 </rules>
               </configuration>
             </execution>
