@@ -71,7 +71,7 @@
     <version.prometheus>0.15.0</version.prometheus>
     <version.protobuf>3.21.1</version.protobuf>
     <version.protobuf-common>2.8.3</version.protobuf-common>
-    <version.micrometer>1.9.0</version.micrometer>
+    <version.micrometer>1.9.1</version.micrometer>
     <version.rocksdbjni>7.2.2</version.rocksdbjni>
     <version.sbe>1.25.3</version.sbe>
     <version.scala>2.13.8</version.scala>
@@ -1073,7 +1073,7 @@
                 <goal>check</goal>
               </goals>
               <phase>validate</phase>
-              <configuration></configuration>
+              <configuration/>
             </execution>
           </executions>
         </plugin>
@@ -1249,7 +1249,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1327,7 +1327,7 @@
               </goals>
               <configuration>
                 <rules>
-                  <dependencyConvergence></dependencyConvergence>
+                  <dependencyConvergence/>
                 </rules>
               </configuration>
             </execution>
@@ -1338,7 +1338,7 @@
               </goals>
               <configuration>
                 <rules>
-                  <banDuplicatePomDependencyVersions></banDuplicatePomDependencyVersions>
+                  <banDuplicatePomDependencyVersions/>
                 </rules>
               </configuration>
             </execution>
