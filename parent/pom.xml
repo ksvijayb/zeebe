@@ -84,7 +84,7 @@
     <version.testcontainers>1.17.2</version.testcontainers>
     <version.netflix.concurrency>0.3.6</version.netflix.concurrency>
     <version.zeebe-test-container>3.4.0</version.zeebe-test-container>
-    <version.feel-scala>1.14.2</version.feel-scala>
+    <version.feel-scala>1.14.4</version.feel-scala>
     <version.dmn-scala>1.7.2</version.dmn-scala>
     <version.rest-assured>5.1.0</version.rest-assured>
     <version.spring>5.3.20</version.spring>
@@ -1073,7 +1073,7 @@
                 <goal>check</goal>
               </goals>
               <phase>validate</phase>
-              <configuration></configuration>
+              <configuration/>
             </execution>
           </executions>
         </plugin>
@@ -1249,7 +1249,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -1327,7 +1327,7 @@
               </goals>
               <configuration>
                 <rules>
-                  <dependencyConvergence></dependencyConvergence>
+                  <dependencyConvergence/>
                 </rules>
               </configuration>
             </execution>
@@ -1338,7 +1338,7 @@
               </goals>
               <configuration>
                 <rules>
-                  <banDuplicatePomDependencyVersions></banDuplicatePomDependencyVersions>
+                  <banDuplicatePomDependencyVersions/>
                 </rules>
               </configuration>
             </execution>
